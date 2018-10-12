@@ -1,6 +1,11 @@
 body{
     text-align: center;
+    background-color: bisque;
+
 }
 .hidden {
     display: none;
+}
+input[type="radio"]{
+    margin: 5px 5px 5px 30px;
 }

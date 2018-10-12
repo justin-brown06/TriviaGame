@@ -31,7 +31,7 @@ function renderQuestions() {
 
     questions.forEach(function (question, index) {
         var $form = $("<form>");
-        var $question = $("<h3>").text(question.question);
+        var $question = $("<h5>").text(question.question);
 
         $form.append($question);
 
